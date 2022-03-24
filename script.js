@@ -2,7 +2,7 @@
 import { Translator } from './translator.js';
 import { binary } from './binary.js';
 
-const userInput = document.querySelector('#morse-input');
+export const userInput = document.querySelector('#morse-input');
 const translateBtn = document.querySelector('.btn-translate');
 const output = document.querySelector("#morse-output");
 console.log(output);
