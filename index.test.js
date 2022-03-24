@@ -1,1 +1,1 @@
-import {} from "./script.js"
+import { binary } from "./binary"
