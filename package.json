@@ -4,7 +4,7 @@
   "description": "Hello, this is my morse code translator, welcome :)",
   "main": "binary.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JebHarrison/Morse-Code-challenge/issues"
   },
-  "homepage": "https://github.com/JebHarrison/Morse-Code-challenge#readme"
+  "homepage": "https://github.com/JebHarrison/Morse-Code-challenge#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
 }
